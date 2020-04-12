@@ -1,0 +1,20 @@
+{
+  "name": "expressapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "watch": "nodemon app"
+  },
+  "author": "Steve Nyanumba",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.24.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3",
+    "sequelize": "^5.21.6"
+  }
+}
